@@ -17,3 +17,28 @@
   Введите третье число:
   20 <enter>
   Сумма чисел = 45
+~~~
+### Реализация
+1. я импортировал класс  `Scanner`, а так же создал объект типа  `scanner` (для общения с пользователем)
+
+~~~ 
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+    }
+}
+~~~
+2. Я просил пользователя вводить по одному числу
+~~~System.out.println("Введите первое число:");
+int value1 = scanner.nextInt();
+System.out.println("Введите второе число:");
+int value1 = scanner.nextInt();
+System.out.println("Введите третье число:");
+int value1 = scanner.nextInt();
+~~~
+3. Я создал метод который посчитал сумму сложения все введенных чисел
+~~~
+
+
